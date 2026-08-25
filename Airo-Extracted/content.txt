@@ -1,0 +1,389 @@
+import { createHotContext as __vite__createHotContext } from "/@vite/client";import.meta.hot = __vite__createHotContext("/@id/__x00__virtual:content");import { schemas } from "/src/content/schemas.ts";
+const identity = { parse: (v) => v };
+
+export const pages = {
+  "about": (schemas.pages?.about ?? schemas.about ?? identity).parse({
+  "hero": {
+    "headline": "About CLM Consulting",
+    "subheadline": "An independent building consultancy practice built on professional integrity, technical rigour and a genuine commitment to client outcomes."
+  },
+  "story": {
+    "heading": "Who We Are",
+    "body": [
+      {
+        "id": "p1",
+        "text": "CLM Consulting is an independent building consultancy and quantity surveying practice based in Gloucestershire. We work with commercial clients, property owners, developers and businesses across the South West and wider UK, providing specialist advice at every stage of the property and construction lifecycle."
+      },
+      {
+        "id": "p2",
+        "text": "Our practice was established to offer clients something that larger firms often cannot: direct access to experienced professionals, genuinely independent advice, and a consistent standard of service from first instruction through to project close."
+      },
+      {
+        "id": "p3",
+        "text": "We are not aligned with any contractor, developer or funding body. Our advice is given solely in the interests of our clients — commercially sound, technically accurate and clearly communicated."
+      }
+    ]
+  },
+  "values": {
+    "heading": "How We Work",
+    "items": [
+      {
+        "id": "v1",
+        "title": "Independence",
+        "body": "We have no contractor relationships, referral arrangements or commercial affiliations that could compromise our advice. Every instruction is approached with complete objectivity."
+      },
+      {
+        "id": "v2",
+        "title": "Technical Rigour",
+        "body": "Our work is underpinned by thorough analysis, accurate measurement and careful attention to contractual and technical detail. We do not cut corners."
+      },
+      {
+        "id": "v3",
+        "title": "Transparency",
+        "body": "We communicate clearly and honestly at every stage. Our clients receive straightforward advice, accurate reporting and no surprises."
+      },
+      {
+        "id": "v4",
+        "title": "Responsiveness",
+        "body": "We understand that property and construction matters are often time-sensitive. We are accessible, responsive and committed to meeting our clients' deadlines."
+      }
+    ]
+  },
+  "expertise": {
+    "heading": "Our Expertise",
+    "body": "Our team brings extensive experience across a broad range of project types and property sectors, including commercial offices, industrial and logistics, retail, mixed-use development, education, healthcare and residential. We have advised on projects ranging from single-property transactions to multi-million pound development programmes.",
+    "sectors": [
+      {
+        "id": "e1",
+        "label": "Commercial & Office"
+      },
+      {
+        "id": "e2",
+        "label": "Industrial & Logistics"
+      },
+      {
+        "id": "e3",
+        "label": "Retail & Leisure"
+      },
+      {
+        "id": "e4",
+        "label": "Mixed-Use Development"
+      },
+      {
+        "id": "e5",
+        "label": "Education & Healthcare"
+      },
+      {
+        "id": "e6",
+        "label": "Residential & Build-to-Rent"
+      }
+    ]
+  },
+  "credentials": {
+    "heading": "Professional Standards",
+    "body": "Our work is conducted in accordance with the standards and guidance of the Royal Institution of Chartered Surveyors (RICS). We maintain professional indemnity insurance and adhere to the RICS Rules of Conduct in all our professional activities.",
+    "items": [
+      {
+        "id": "cr1",
+        "label": "RICS-Aligned Practice",
+        "detail": "Work conducted to Royal Institution of Chartered Surveyors standards and guidance"
+      },
+      {
+        "id": "cr2",
+        "label": "Professional Indemnity",
+        "detail": "Full professional indemnity insurance maintained on all instructions"
+      },
+      {
+        "id": "cr3",
+        "label": "Gloucestershire Based",
+        "detail": "Locally based with strong regional knowledge across the South West"
+      },
+      {
+        "id": "cr4",
+        "label": "Independent Practice",
+        "detail": "No contractor affiliations — advice given solely in the client's interest"
+      }
+    ]
+  },
+  "coverage": {
+    "heading": "Where We Work",
+    "body": "CLM Consulting is based in Gloucestershire and primarily serves clients across the South West of England, including Gloucestershire, Worcestershire, Oxfordshire, Wiltshire, Bristol and the surrounding counties. We also accept instructions from clients further afield where the nature of the project warrants it."
+  },
+  "cta": {
+    "heading": "Work with us",
+    "body": "If you are looking for independent, expert building consultancy advice, we would be pleased to hear from you.",
+    "button": "Make an Enquiry"
+  }
+}),
+  "contact": (schemas.pages?.contact ?? schemas.contact ?? identity).parse({
+  "hero": {
+    "headline": "Get in Touch",
+    "subheadline": "We welcome enquiries from property owners, developers, businesses and professional advisors. Please use the form below or contact us directly."
+  },
+  "intro": {
+    "heading": "Make an Enquiry",
+    "body": "Whether you have a specific project in mind or would like to discuss how we might assist, we are happy to have an initial conversation without obligation. We aim to respond to all enquiries within one business day."
+  },
+  "details": {
+    "heading": "Contact Details",
+    "location": "Gloucestershire, United Kingdom",
+    "coverage": "Serving clients across Gloucestershire, Worcestershire, Oxfordshire, Wiltshire, Bristol and the wider South West.",
+    "email": "info@clmconsulting.co.uk"
+  },
+  "services_note": {
+    "heading": "What We Can Help With",
+    "items": [
+      {
+        "id": "n1",
+        "label": "Quantity Surveying"
+      },
+      {
+        "id": "n2",
+        "label": "Project Management"
+      },
+      {
+        "id": "n3",
+        "label": "Building Consultancy"
+      },
+      {
+        "id": "n4",
+        "label": "Contract Administration"
+      },
+      {
+        "id": "n5",
+        "label": "Dilapidations"
+      },
+      {
+        "id": "n6",
+        "label": "Condition Surveys"
+      }
+    ]
+  }
+}),
+  "home": (schemas.pages?.home ?? schemas.home ?? identity).parse({
+  "hero": {
+    "headline": "Independent Building Consultancy You Can Rely On",
+    "subheadline": "Quantity surveying, project management and building consultancy services across Gloucestershire and the South West.",
+    "cta_primary": "Our Services",
+    "cta_secondary": "Get in Touch"
+  },
+  "intro": {
+    "heading": "Expert Advice. Independent Perspective.",
+    "body": [
+      {
+        "id": "p1",
+        "text": "CLM Consulting is an independent building consultancy and quantity surveying practice based in Gloucestershire. We provide clear, commercially focused advice to property owners, developers, and businesses throughout the South West and beyond."
+      },
+      {
+        "id": "p2",
+        "text": "Our approach is straightforward: we apply rigorous professional expertise to protect our clients' interests at every stage of a project — from initial feasibility through to final account."
+      }
+    ],
+    "credentials": [
+      {
+        "id": "c1",
+        "label": "Independent Practice",
+        "detail": "Unbiased advice with no contractor affiliations"
+      },
+      {
+        "id": "c2",
+        "label": "RICS-Aligned Standards",
+        "detail": "Work conducted to Royal Institution of Chartered Surveyors guidelines"
+      },
+      {
+        "id": "c3",
+        "label": "Gloucestershire & Beyond",
+        "detail": "Serving the South West and wider UK"
+      },
+      {
+        "id": "c4",
+        "label": "Commercial Focus",
+        "detail": "Cost certainty and risk management at the core of every instruction"
+      }
+    ]
+  },
+  "services": {
+    "heading": "Our Services",
+    "intro": "We offer a focused range of building consultancy and surveying services, each delivered with the same commitment to accuracy, transparency and client care.",
+    "items": [
+      {
+        "id": "s1",
+        "title": "Quantity Surveying",
+        "description": "Accurate cost planning, procurement advice and financial management throughout the construction process. We provide the cost certainty your project demands."
+      },
+      {
+        "id": "s2",
+        "title": "Project Management",
+        "description": "End-to-end project oversight from brief to completion. We coordinate consultants, contractors and programmes to keep your project on time and on budget."
+      },
+      {
+        "id": "s3",
+        "title": "Building Consultancy",
+        "description": "Specialist advice on building condition, defects, and technical due diligence. Practical guidance for informed property decisions."
+      },
+      {
+        "id": "s4",
+        "title": "Contract Administration",
+        "description": "Impartial administration of building contracts, managing valuations, variations and final accounts with rigour and transparency."
+      },
+      {
+        "id": "s5",
+        "title": "Dilapidations",
+        "description": "Expert assessment and negotiation of dilapidations claims for landlords and tenants. We protect your position with well-evidenced, professionally argued advice."
+      },
+      {
+        "id": "s6",
+        "title": "Condition Surveys",
+        "description": "Thorough inspection and reporting on building condition. Clear, actionable reports that give you a complete picture of any property."
+      }
+    ]
+  },
+  "why": {
+    "heading": "Why Clients Choose CLM",
+    "items": [
+      {
+        "id": "w1",
+        "title": "Genuinely Independent",
+        "body": "We have no contractor relationships or referral arrangements. Our advice is given solely in your interest — commercially and professionally."
+      },
+      {
+        "id": "w2",
+        "title": "Depth of Expertise",
+        "body": "Our team brings extensive experience across commercial, residential and mixed-use projects. We understand the technical and contractual detail that matters."
+      },
+      {
+        "id": "w3",
+        "title": "Transparent at Every Stage",
+        "body": "We communicate clearly, report accurately and keep you informed. No surprises, no ambiguity — just straightforward professional advice."
+      },
+      {
+        "id": "w4",
+        "title": "Client-Led Approach",
+        "body": "Every instruction is different. We take time to understand your objectives and tailor our service accordingly, from initial enquiry through to project close."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to discuss your project?",
+    "body": "Whether you are at the early stages of planning or need specialist advice on an existing matter, we are ready to help.",
+    "button": "Make an Enquiry"
+  }
+}),
+  "services": (schemas.pages?.services ?? schemas.services ?? identity).parse({
+  "hero": {
+    "headline": "Our Services",
+    "subheadline": "A focused range of building consultancy and quantity surveying services, delivered with precision and professional integrity."
+  },
+  "intro": {
+    "heading": "Specialist expertise across the full project lifecycle",
+    "body": "From early-stage cost planning through to final account and post-completion matters, CLM Consulting provides the specialist advice and professional oversight that property owners, developers and businesses require. Each service is delivered with the same commitment to accuracy, independence and client care."
+  },
+  "services": [
+    {
+      "id": "s1",
+      "title": "Quantity Surveying",
+      "tagline": "Cost certainty from inception to completion",
+      "description": "Effective cost management is fundamental to any successful construction project. We provide accurate, evidence-based cost advice at every stage — from initial feasibility estimates and detailed cost plans through to procurement strategy, tender analysis and final account settlement.",
+      "scope": [
+        "Feasibility cost estimates and option appraisals",
+        "Detailed cost plans and elemental breakdowns",
+        "Procurement strategy and tender documentation",
+        "Tender analysis and contractor selection support",
+        "Interim valuations and payment certification",
+        "Variation assessment and change control",
+        "Final account negotiation and settlement"
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Project Management",
+      "tagline": "Coordinated delivery from brief to handover",
+      "description": "Successful project delivery requires clear leadership, rigorous programme management and effective coordination of all parties. We act as your representative throughout the project, managing consultants, contractors and stakeholders to keep your project on programme and within budget.",
+      "scope": [
+        "Project brief development and feasibility",
+        "Consultant team assembly and management",
+        "Programme development and monitoring",
+        "Risk identification and management",
+        "Contractor procurement and appointment",
+        "Site progress monitoring and reporting",
+        "Handover and post-completion review"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Building Consultancy",
+      "tagline": "Technical expertise for informed property decisions",
+      "description": "Our building consultancy service provides specialist technical advice on building condition, defects analysis and property due diligence. Whether you are acquiring, disposing of or managing a property, we provide the clear, practical guidance needed to make informed decisions.",
+      "scope": [
+        "Pre-acquisition technical due diligence",
+        "Building defect investigation and reporting",
+        "Planned maintenance programmes",
+        "Specification and tender for repair works",
+        "Party wall matters and neighbourly agreements",
+        "Insurance reinstatement cost assessments",
+        "Technical advisory for property transactions"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Contract Administration",
+      "tagline": "Impartial administration of building contracts",
+      "description": "Proper contract administration protects all parties and ensures that building works are carried out in accordance with the contract. We act as contract administrator with complete impartiality — managing the contractual process, certifying payments, assessing variations and resolving disputes fairly.",
+      "scope": [
+        "Contract preparation and execution",
+        "Pre-contract meetings and site establishment",
+        "Interim valuation and payment certification",
+        "Instruction and variation management",
+        "Programme and progress monitoring",
+        "Practical completion inspection and certification",
+        "Defects liability period management and final certificate"
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Dilapidations",
+      "tagline": "Expert assessment and negotiation of dilapidations claims",
+      "description": "Dilapidations disputes can represent significant financial exposure for both landlords and tenants. We provide expert assessment, well-evidenced schedules and skilled negotiation to protect your position — whether you are pursuing or defending a claim at lease expiry or during a tenancy.",
+      "scope": [
+        "Schedules of dilapidations for landlords",
+        "Dilapidations responses and counter-schedules for tenants",
+        "Quantified demands and financial assessments",
+        "Supersession and diminution in value arguments",
+        "Negotiation and settlement of claims",
+        "Interim dilapidations advice during tenancy",
+        "Expert witness and dispute resolution support"
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Condition Surveys",
+      "tagline": "Thorough inspection and clear, actionable reporting",
+      "description": "A thorough condition survey provides an accurate picture of a building's state at a given point in time. Our surveys are methodical, clearly written and supported by photographic evidence — giving you the information needed to plan maintenance, manage risk or support a transaction.",
+      "scope": [
+        "Pre-acquisition condition surveys",
+        "Schedules of condition for lease purposes",
+        "Planned preventative maintenance surveys",
+        "Reinstatement cost assessments",
+        "Drone-assisted roof and facade inspection",
+        "Photographic schedules and condition registers",
+        "Prioritised maintenance recommendations"
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Discuss your requirements with us",
+    "body": "We are happy to discuss your project or property matter without obligation. Contact us to arrange an initial conversation.",
+    "button": "Get in Touch"
+  }
+}),
+};
+export const about = pages.about;
+export const contact = pages.contact;
+export const home = pages.home;
+export const services = pages.services;
+
+if (import.meta.hot) {
+  import.meta.hot.accept(() => {
+    import.meta.hot.invalidate();
+  });
+}
